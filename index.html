@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <style>
+        .fa{
+            color: rgb(250, 154, 9);
+            width: 30px;
+        }
+    </style>
+    <form action="#" method="POST">
+        <div class="body"> 
+          <div>
+            <span class="heading">Name </span> <span class="must_fill">*</span> <br>
+            <input class="input" type="text" name="name" id="fname" required size="30"> &emsp;&emsp;
+            <input class="input" type="text" name="name" id="lname" required size="30"> <br>
+            <small style="font-size: 12px;">First Name</small>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <small style="font-size: 12px;">Last Name</small>
+          </div> <br>
+          <div>
+              <span class="heading">E-Mail </span> <span class="must_fill" >*</span> <br>
+              <input class="inputmail"  type="email" name="mail" id="mail" required size="71">
+          </div> <br>
+          <div>
+            <span class="heading">Your Experience </span> <span class="must_fill">*</span> <br>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span> <br> <br>
+            Overall how would you rate you experience with us ?
+          </div> <br>
+          <div>
+            <div class="heading"> How Satisfied you are with <span class="must_fill" >*</span></div>  <br>
+            <table>
+                <tr class="even">
+                    <td width="15%" ></td>
+                    <td class="evendata">
+                        <label for=""> Very Unsatisfied</label>
+                    </td>
+                    <td class="evendata">
+                        <label for="">Unsatisfied</label>
+                    </td>
+                    <td class="evendata">
+                        <label for="">Neutral</label>
+                    </td>
+                    <td class="evendata">
+                        <label for="">Satisfied</label>
+                    </td>
+                    <td class="evendata">
+                        <label for="">Very Satisfied</label>
+                    </td>
+                </tr>
+                <tr class="odd">
+                    <td width="15%">
+                        <label for="">Purchase</label>
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Purchase" value="Very Unsatisfied" >
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Purchase" value="Unsatisfied">
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Purchase" value="Neutral">
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Purchase" value="Satisfied">
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Purchase" value="Very Satisfied">
+                    </td>
+                </tr>
+                <tr class="even">
+                    <td width="15%">
+                        <label for="">Service</label>
+                    </td>
+                    <td class="evendata">
+                        <input type="radio" name="Service" value="Very Unsatisfied" >
+                    </td>
+                    <td class="evendata">
+                        <input type="radio" name="Service" value="Unsatisfied">
+                    </td>
+                    <td class="evendata">
+                        <input type="radio" name="Service" value="Neutral">
+                    </td>
+                    <td class="evendata">
+                        <input type="radio" name="Service" value="Satisfied">
+                    </td>
+                    <td class="evendata">
+                        <input type="radio" name="Service" value="Very Satisfied">
+                    </td>
+                </tr>
+                <tr class="odd">
+                    <td width="15%">
+                        <label for="">Company-Overall</label>
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Company-Overall" value="Very Unsatisfied" >
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Company-Overall" value="Unsatisfied">
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Company-Overall" value="Neutral">
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Company-Overall" value="Satisfied">
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Company-Overall" value="Very Satisfied">
+                    </td>
+                </tr>
+            </table> 
+          </div> <br>
+          <div>
+              <div class="heading">How likely are you to  <span class="must_fill" >*</span></div>
+             <br>
+            <table>
+                <tr class="even">
+                    <td width="15%" ></td>
+                    <td class="evendata">
+                        <label for=""> Very Unsatisfied</label>
+                    </td>
+                    <td class="evendata">
+                        <label for="">Unsatisfied</label>
+                    </td>
+                    <td class="evendata">
+                        <label for="">Neutral</label>
+                    </td>
+                    <td class="evendata">
+                        <label for="">Satisfied</label>
+                    </td>
+                    <td class="evendata">
+                        <label for="">Very Satisfied</label>
+                    </td>
+                </tr>
+                <tr class="odd">
+                    <td width="15%">
+                        <label for="">Buy from us <br> again</label>
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Buy from us again" value="Very Unsatisfied" >
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Buy from us again" value="Unsatisfied">
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Buy from us again" value="Neutral">
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Buy from us again" value="Satisfied">
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Buy from us again" value="Very Satisfied">
+                    </td>
+                </tr>
+                <tr class="even">
+                    <td width="15%">
+                        <label for="">Recommend our  <br> Product  to others</label>
+                    </td>
+                    <td class="evendata">
+                        <input type="radio" name="Recommend our Product  to others" value="Very Unsatisfied" >
+                    </td>
+                    <td class="evendata">
+                        <input type="radio" name="Recommend our Product  to others" value="Unsatisfied">
+                    </td>
+                    <td class="evendata">
+                        <input type="radio" name="Recommend our Product  to others" value="Neutral">
+                    </td>
+                    <td class="evendata">
+                        <input type="radio" name="Recommend our Product  to others" value="Satisfied">
+                    </td>
+                    <td class="evendata">
+                        <input type="radio" name="Recommend our Product  to others" value="Very Satisfied">
+                    </td>
+                </tr>
+                <tr class="odd">
+                    <td width="15%">
+                        <label for="">Recommend our &nbsp; <br> Company to others</label>
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Recommend our Company to others" value="Very Unsatisfied" >
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Recommend our Company to others" value="Unsatisfied">
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Recommend our Company to others" value="Neutral">
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Recommend our Company to others" value="Satisfied">
+                    </td>
+                    <td class="odddata">
+                        <input type="radio" name="Recommend our Company to others" value="Very Satisfied">
+                    </td>
+                </tr>
+            </table>
+          </div> <br>
+          <div>
+              <div class="heading">Additional comments or suggestions</div>
+               <br> 
+              <textarea class="areatext" name="" id="" cols="130" rows="10"  ></textarea>
+          </div> <br>
+          <div>
+              <button type="submit" value="Submit">Submit</button>
+          </div>
+        </div>
+      </form>
+</body>
+</html>
